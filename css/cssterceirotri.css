@@ -1,0 +1,82 @@
+*{
+    font-family: 'Bitter', serif;
+    margin: 10px;
+}
+h1{
+    font-family: 'Bitter', serif;
+    color: orange;
+}
+
+p,
+h2,
+h3 {
+    font-family: 'Bitter', serif;
+    color: #ffffff;
+}
+text{
+    position: relative;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #3c3c3c, #515151);
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.container {
+    margin-top: 500px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+img {
+    position: absolute;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33%;
+  z-index: -1;
+}
+
+.center {
+
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    background: linear-gradient(to right, #00ff14, #fd00e7);
+    border: 5px solid white;
+    border-radius: 5px;
+    display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+    
+    padding: 30px;
+    display: inline-block;
+    margin-right: 150px;
+    justify-content: center;
+}
+.imagensport{
+    width: 300;
+    height: 300;
+
+}
+
+
+    

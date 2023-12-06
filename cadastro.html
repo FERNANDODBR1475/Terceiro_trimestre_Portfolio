@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="utf-8">
+    <title> Portfólio </title>
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h1 class="center">
+            Contate-me
+        </h1>
+        <h1 class="center">
+            Avalie e comente sobre o Portfólio ou contate-me por aqui
+        </h1>
+    </div>
+    <div class="container" href="index.html">
+        <form action="https://madarauchiha21464@gmail.com.php" method="POST">
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" placeholder=" Digite o Nome" id='nome'>
+            <required><br>
+                <br>
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="email" placeholder=" Digite o seu E-mail" id="email" required><br>
+                <br>
+                <div class="grupo">
+                    <fieldset>
+                        <legend>Telefone</legend>
+                        <div class='tel'>
+                            <label for="resid">Residencial</label>
+                            <input type="text" name="resid" placeholder=" Telefone Residencial">
+                        </div>
+                        <div class="tel">
+                            <label for="celul">Celular</label>
+                            <input type="text" name='celul' placeholder=" Telefone Celular">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <label for="avaliacao">Avaliação:</label>
+                <br>
+                <select id="avaliacao" name="avaliacao" required>
+                    <option value="excelente">Excelente</option>
+                    <option value="bom">Bom</option>
+                    <option value="regular">Regular</option>
+                    <option value="ruim">Ruim</option>
+                </select>
+                <br>
+
+                <label for="comentario">Comentário:</label><br>
+                <textarea id="comentario" name="comentario" placeholder=" Deixe seu Comentário sobre o Portfólio"
+                    rows="4" cols="50" required></textarea><br>
+
+                <input type="submit" value="Enviar Avaliação">
+        </form>
+    </div>
+    <center>
+        <div class="imagemsaida">
+            <a href="index.html">
+                <img src="imagens/voltarimagem.png" />
+            </a>
+        </div>
+    </center>
+</body>
+
+</html>
